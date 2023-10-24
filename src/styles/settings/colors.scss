@@ -7,10 +7,24 @@
     --color-white: #fff;
     --color-black: #000;
 
-    // Couleurs du projet
-    --color-primary: #6aa84f;
-    --color-primary-dark: #304d24;
+    --color-neutral: #81848d;
+    --color-neutral-light: #bbc8eb;
 
-    --color-bg-primary: #212121;
-    --color-bg-secondary: #3e92cc;
+    --color-neutral-dark: #081946;
+
+    // Couleurs du projet
+
+    --color-primary: #2824c0;
+    --color-bg-primary: #23235e;
+    --color-bg-secondary: #f5f4fa;
+
+    --color-secondary: #ffc700;
+    --color-secondary-dark: #ff782d;
+
+    //Couleurs dégradés
+    --gradient-primary: linear-gradient(
+        92.42deg,
+        #4424bf 1.68%,
+        #8236da 98.61%
+    );
 }

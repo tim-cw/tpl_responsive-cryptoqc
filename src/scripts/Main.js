@@ -1,4 +1,20 @@
-//Il me semble que ça prend du code ici pour que les icônes fonctionnent
-import Icons from "./utils/Icons";
+import Icons from './utils/Icons';
 
-Icons.load();
+/** Classe principale du projet */
+class Main {
+  /**
+   * Méthode constructeur
+   */
+  constructor() {
+    this.init();
+  }
+
+  /**
+   * Méthode d'initialisation
+   */
+  init() {
+    Icons.load();
+  }
+}
+
+new Main();

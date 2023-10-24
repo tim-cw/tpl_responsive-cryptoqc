@@ -1,0 +1,45 @@
+.footer {
+    display: none;
+    padding: var(--spacing-xl) 0;
+
+    background-color: var(--color-bg-primary);
+
+    color: var(--color-white);
+    font-weight: normal;
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 140px;
+    }
+
+    ul,
+    p {
+        font-size: var(--font-size-h4);
+    }
+
+    ul {
+        color: var(--color-neutral-light);
+        padding-left: 0;
+        list-style: none;
+    }
+}
+
+.footer__nav-socials ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__nav h4 {
+    padding-bottom: 20px;
+}
+
+.footer .wrapper:last-child {
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+
+    p {
+        margin: 0;
+    }
+}

@@ -1,0 +1,48 @@
+.header {
+    padding: 24px;
+    font-size: var(--font-size-h4);
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        list-style: none;
+
+        display: flex;
+        gap: 45px;
+    }
+}
+
+.header__nav {
+    font-weight: 500;
+    color: var(--color-neutral);
+}
+
+.header__nav a:hover {
+    color: var(--color-neutral-light);
+}
+
+.header__options {
+    font-weight: 700;
+    color: var(--color-bg-primary);
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.header__toggle {
+    span {
+        width: 20px;
+        height: 2px;
+        background-color: var(--color-black);
+        display: block;
+    }
+
+    display: none;
+    gap: 5px;
+}
