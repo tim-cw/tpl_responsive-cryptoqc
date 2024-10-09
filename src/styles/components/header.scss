@@ -36,13 +36,13 @@
 }
 
 .header__toggle {
+    display: none;
+    gap: 5px;
+
     span {
         width: 20px;
         height: 2px;
         background-color: var(--color-black);
         display: block;
     }
-
-    display: none;
-    gap: 5px;
 }
