@@ -37,11 +37,16 @@
 
 .header__toggle {
     display: none;
+
+    flex-direction: column;
     gap: 5px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
 
     span {
-        width: 20px;
-        height: 2px;
+        width: 36px;
+        height: 4px;
         background-color: var(--color-black);
         display: block;
     }

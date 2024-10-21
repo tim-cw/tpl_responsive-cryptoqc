@@ -13,15 +13,21 @@
     --color-neutral-dark: #081946;
 
     // Couleurs du projet
-
     --color-primary: #2824c0;
+    // color-mix (c'est du css normal) permet de prendre
+    // --color-primary et de la mélanger avec 90% de transparence.
+    --color-primary-fade: color-mix(
+        in srgb,
+        var(--color-primary),
+        transparent 90%
+    );
     --color-bg-primary: #23235e;
     --color-bg-secondary: #f5f4fa;
 
     --color-secondary: #ffc700;
     --color-secondary-dark: #ff782d;
 
-    //Couleurs dégradés
+    // Couleurs dégradées
     --gradient-primary: linear-gradient(
         92.42deg,
         #4424bf 1.68%,
