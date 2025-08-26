@@ -5,14 +5,13 @@
 :root {
     --font-primary: Inter, sans-serif;
 
-    --font-size-content: #{typo(24px)};
+    --font-size-content: 24px;
 
-    --font-size-button: #{typo(16px)};
-    --font-size-button-large: #{typo(24px)};
+    --font-size-button: 16px;
+    --font-size-button-large: 24px;
 
     /// Grosseur des textes
-    --font-size-h1: #{typo(64px)};
-    --font-size-h2: #{typo(48px)};
-    --font-size-h3: #{typo(32px)};
-    --font-size-h4: #{typo(16px)};
+    --font-size-h1: 64px;
+    --font-size-h2: 48px;
+    --font-size-h3: 32px;
 }

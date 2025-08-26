@@ -1,4 +1,4 @@
-import Icons from './utils/Icons';
+import Icons from './utils/Icons.js';
 
 /** Classe principale du projet */
 class Main {
